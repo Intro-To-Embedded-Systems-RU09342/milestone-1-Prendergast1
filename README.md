@@ -1,3 +1,13 @@
+# Sean Prendergast
+
+## Milestone 1
+For this assignment, all implemented code would be written in C with the ultimate goal consisting of constructing addressable LEDs capable of communicating over UART. 
+
+
+
+
+
+
 # Milestone 1: Stranger Things Light Wall
 For the first milestone, you will be building "Addressable" RGB LEDs which can be connected in series with one another and can have patterns generated from them. You will need to use one of your two development boards to generate an RGB node. By the week of _**OCTOBER 17**_, you will be expected to come into lab with a fully operational RGB node ready to be connected together. Your node will be tested individually during that lab period, with your documentation (code and readme) being graded throughout the week.
 
