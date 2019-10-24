@@ -1,6 +1,12 @@
 /*
- * Sean Prendergast
- * Milestone 1
+ * Author: Sean Prendergast
+ *
+ * Worked with: Dawson Tocarchick and Kyle Limbaga
+ *
+ * Started: October 10th
+ * Last Updated: October 23rd
+ *
+ * Assignment: Milestone 1
  */
 
 void Timer(void);    // Declare a function for timers being utilized
@@ -11,7 +17,7 @@ void UART(void);     // Declare function for UART (universal asynchronous receiv
 
 int main(void)
 {
-	WDTCTL = WDTPW | WDTHOLD;	// stop watchdog timer
+    WDTCTL = WDTPW | WDTHOLD;	// stop watchdog timer
 	
 	Timer();               //Call function for Timers being utilized
 	RGB();                  //Call function for RGB LED
@@ -19,7 +25,6 @@ int main(void)
 
 	__bis_SR_register(LPM0_bits + GIE);     // Low-power mode 0 and general interrupt enabled
 
-	return 0;
 }
 
 // Function for timers being utilized
